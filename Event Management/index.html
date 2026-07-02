@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        /* Set background image */
+        body {
+            background-image: url('image/Evt.png'); 
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, sans-serif;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        
+        /* Navigation bar styling */
+        .navbar {
+            background-color: rgba(0, 0, 0, 0.8); 
+            padding: 25px; 
+            display: flex;
+            justify-content: space-between; 
+            align-items: center; 
+        }
+
+        .nav-links {
+            display: flex; /* Flexbox for links */
+        }
+
+        .navbar a {
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px 15px;
+            border-radius: 5px;
+            margin: 0 5px; /* Spacing between links */
+        }
+
+        .navbar a.Sign-up{
+            color: green; /* Register button text color */
+        }
+
+        .navbar a.LOG-IN {
+            color: red; /* Login button text color */
+        }
+
+        /* Profile icon styling */
+        .admin-icon {
+            background-image: url('image/admin.png'); 
+            width: 100px; 
+            height: 100px; 
+            border-radius: 500%; /* Rounded icon */
+            overflow: hidden; 
+        }
+
+        .admin-icon img {
+            width: 100%; 
+            height: auto;
+        }
+
+        .content {
+            text-align: center; /* Center the content */
+            margin-top: 50px; /* Space from navbar */
+        }
+
+        .content h1 {
+            color:gold; /* Title color */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <div class="nav-links">
+            <a class="sign-up" href="sign-up.php">SIGN UP</a>
+            <a class="LOG IN" href="LOG IN.php">LOG IN</a>
+        </div>
+        <div class="About us">
+            <a href="about us.php">About us</a>
+        </div>
+        <!-- Admin Icon -->
+        <div class="admin-icon">
+            <img src="image/admin.png" alt="Admin Icon"> <a href="Admin.php">Admin</a>
+        </div>
+        
+    </div>
+
+    <div class="content">
+        <h1>Event Management Dashboard</h1>
+    </div>
+
+</body>
+</html>

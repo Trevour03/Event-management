@@ -1,0 +1,61 @@
+body{
+    padding: 50px;
+}
+.container{
+    max-width: 600px;
+    margin:0 auto;
+    padding: 50px;
+    box-shadow: rgba(100, 100, 111, 0.2)0px 7px 29px 0px;
+
+}
+.form-group{
+     margin-bottom: 30px;
+}
+.button{
+        padding: 10px 20px;
+        font-size: 16px;
+        color: white;
+        border: none;
+        cursor: pointer;
+        margin: 5px;
+    }
+    .register-btn {
+        background-color: #4CAF50;
+    }
+    .cancel-btn {
+        background-color: #f44336;
+    }
+    .login-container {
+        background-color: rgba(255, 255, 255, 0.9);
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        padding: 20px;
+        width: 300px;
+        margin: 0 auto;
+    }
+    input[type="text"],
+    input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    .button {
+        background-color: lightblue;
+        color: #333;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 15px;
+        cursor: pointer;
+        margin: 10px 5px;
+        transition: background-color 0.3s;
+    }
+    .button:hover {
+        background-color: #add8e6;
+    }
+    .eye-icon {
+        cursor: pointer;
+        margin-left: -30px;
+    }
+    
